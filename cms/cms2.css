@@ -1,0 +1,49 @@
+ul li{
+    color: azure;
+    font-size: 0.5cm;
+    font-weight: lighter;
+    display: inline-block;
+  list-style-type:none;
+  padding: 15px;
+
+}
+img{
+    border-radius: 0px;
+}
+.header{
+    border-color:   #85dcb8;
+    border-style: solid;
+     background-color:   #85dcb8;
+    
+   
+}
+
+ .profile{
+   color: azure;
+  background-color: #85dcb8;
+  list-style-type:none;
+  padding: 15px;
+ }
+ .patientDetails{
+     background-color:#85dcb8 ;
+ }
+ .avatar{
+   text-align: right;
+ }
+ table{
+   border: 1px solid blue;
+   border-collapse: collapse;
+ }
+ th,td{
+   text-align: center;
+   padding: 10px;
+ }
+ .section{
+  display:inline-flexbox;
+  list-style-type:none;
+  padding: 15px;
+  
+ }
+ body{
+   background-image:image1.jpg ;
+ }

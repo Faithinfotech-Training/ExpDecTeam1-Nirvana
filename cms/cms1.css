@@ -1,0 +1,16 @@
+body{
+    border-style: hidden;
+    background-image: url(hospital.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+ul li{
+  display: inline-block;
+list-style-type:none;
+padding: 15px;
+  }
+
+   
+    
