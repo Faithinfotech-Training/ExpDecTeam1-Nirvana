@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Details</title>
+    <style>
+        h1 {
+          color: navy;
+          text-align: justify;
+        }
+    
+        div {
+          text-align: justify;
+          padding-top: 10px;
+    
+        }
+    
+        .main_body{
+          padding-left: 40%;
+          background-color:#41B3A3;
+        }
+        button {
+          width:200px;
+          height: 50px;
+          background-color: #00a31b86;
+          border-radius: 5%;
+          margin-left: 95px !important;
+        }
+        .navbar {
+      background-color:  #85dcb8 ;
+    }
+    .navbar ul {
+      overflow: auto;
+    }
+    .navbar li {
+      float: left;
+      list-style: none;
+    }
+    .navbar li a {
+      padding: 3px 3px;
+      text-decoration: none;
+      color: white;
+      margin: 30px 10px;
+    }
+    .navbar li a:hover {
+      color: blue;
+    }
+    .Logout {
+      float: right;
+      color: white;
+      padding: 12px 75px;
+    }
+    .Logo img {
+      float: left;
+      width: 100px;
+      height: 100;
+      border-radius: 50%;
+    }
+
+      </style>
+</head>
+<body>
+  <form >
+    <header>
+      <nav class="navbar">
+        <ul>
+          <div class="Logo"><img src="C:\Users\sneha.salu\Pictures\Saved Pictures\logo_cms_0.png" alt=""></div>
+          <li><a href="home">Home</a></li>
+          <li><a href="Search">Search</a></li>
+          <li><a href="C:\Users\sneha.salu\Downloads\patient registration (1).html">Add Patient</a></li>
+          <div class="Logout">
+            <input type="button" value="Logout">
+          </div>
+        </ul>
+
+      </nav>
+    </header>
+      <div class="main_body">
+        <h1>APPOINTMENT DETAILS</h1>
+        <div>
+        <label for="TokenNumber">TokenNumber</label>&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="number" name="Token Number" id="TokenNumber" required>
+    </div>
+    <br>
+    <div>
+        <label for="PatientID">PatientID</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="number" name="id" id="PatientID" required>
+    </div>
+    <br>
+    <div>
+        <label for="PatientName">PatientName</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="name" id="PatientName"required>
+    </div>
+    <br>
+    <div>
+        <label for="Department">Department</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="search" name="Department" id="Department" required>
+    </div>
+    <br>
+    <div>
+        <label for="Doctor Name">Doctor Name</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="search" name="name" id="Doctor Name" required>
+    </div>
+    <br>
+    <div>
+        <label for="DateandTime">DateandTime</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="datetime" name="DateandTime" id="DateandTime" required>
+    </div>
+    <br>
+    <button class='btn btn-success' type="submit">MARK THE APPOINTMENT</button>
+</div>
+</form>
+</body>
+</html>
