@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Registration</title>
+  <style>
+    h1 {
+      color: navy;
+      text-align: justify;
+    }
+    div {
+      text-align: justify;
+      padding-top: 10px;
+    }
+    .main_body{
+      padding-left: 40%;
+      background-color:#41B3A3;
+    }
+    button {
+      width:100px;
+      height: 30px;
+      background-color:blue ;
+      color:white ;
+      border-radius: 5%;
+      margin-left: 130px !important;
+    }
+    .navbar {
+      background-color:  #85dcb8 ;
+    }
+    .navbar ul {
+      overflow: auto;
+    }
+    .navbar li {
+      float: left;
+      list-style: none;
+    }
+    .navbar li a {
+      padding: 3px 3px;
+      text-decoration: none;
+      color: white;
+      margin: 30px 10px;
+    }
+    .navbar li a:hover {
+      color: blue;
+    }
+    .Logout {
+      float: right;
+      color: white;
+      padding: 12px 75px;
+    }
+    .Logo img {
+      float: left;
+      width: 100px;
+      height: 100;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body  style="margin: 0px;">
+
+  <form>
+    <header>
+      <nav class="navbar">
+        <ul style="margin-top: 0px;margin-bottom: 0px;padding-top: 5px;">
+          <div class="Logo"><img src="C:\Users\sneha.salu\Pictures\Saved Pictures\logo_cms_0.png" alt=""></div>
+          <li><a href="home">Home</a></li>
+          <li><a href="Search">Search</a></li>
+          <li><a href="C:\Users\sneha.salu\Documents\PROJECT\Appointment Details.html">Appointment</a></li>
+          <div class="Logout">
+            <input type="button" value="Logout">
+          </div>
+        </ul>
+
+      </nav>
+    </header>
+    <div class="main_body" style="padding-bottom: 5em;">
+      
+      <div>
+        <h1>Patient Registration Form</h1>
+        <label for="nameVal">Name:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" id="nameVal" name="nameVal" required>
+      </div>
+      <br>
+      <div>
+        <label for="DOB">Date of Birth:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="date" name="Date" id="DOB" required>
+      </div>
+      <br>
+      <div>
+        <label
+          for="Gender">Gender:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="Gender" id="Gender" required>
+      </div>
+      <br>
+      <div>
+        <label for="ContactNumber">ContactNumber:</label>&nbsp&nbsp
+        <input type="number" name="number" id="ContactNumber" required>
+      </div>
+      <br>
+      <div>
+        <label
+          for="Address">Address:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="Address" id="Address" required>
+      </div>
+      <br>
+      <div>
+        <label for="BloodGroup">BloodGroup:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="BloodGroup" id="BloodGroup" required>
+      </div>
+      <br>
+      <button class='btn btn-success' type="submit">SUBMIT</button>
+    </div>
+  </form>
+</body>
+
+</html>
