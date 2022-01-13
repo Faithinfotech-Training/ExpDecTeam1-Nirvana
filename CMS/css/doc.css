@@ -142,3 +142,9 @@
     position: sticky;
 }
 
+/* ERROR HANDLERS */
+
+.invalid {
+    border-style: solid;
+    border-color: red;
+}
