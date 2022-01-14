@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>pharmacist Home</title>
+        <link rel="stylesheet" href="../../css/pharmacss.css">
+    </head>
+    <body>
+
+        <div id="navbar" >
+            
+            <ul>
+                <li ><img id=logo src="../../images/doc.png" height="75" width="75"></li>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>new</li></a>
+                <a href="#"><li>History</li></a>
+            </ul>
+        </div>
+        <div class="profile" >
+            
+                <img id="photo" src="../../images/avatar.png" height="75" width="75">
+                <h4 id="userid">User ID</h4>
+            
+        </div>
+        <div class="patientDetails" text align=center>
+            <form>
+                <input type="text" name="patientid" id="patientid" placeholder="Enter the Patient ID" required><br><br>
+                <button type="submit">submit</button>
+                <br><br>
+                <input type="text" name="patientid" id="patientid" placeholder="patient Name" required>
+                <br/> <br/>
+                <input type="number" name="PhoneNumber" id="PhoneNumber"placeholder="Phone Number" required>
+                <br/> <br/>
+            
+            
+                <input type="text" name="bloodgroup" id="bloodgroup" placeholder="Blood Group">
+                <br/> <br/>
+                
+                <input type="text" name="DOB" id="DOB" placeholder="DOB">
+                <br/> <br/>
+                <input type="text" name="DOB" id="DOB" placeholder="DOB">
+                <br/> 
+        
+            </form>
+            <div>
+                <label for="MedicinesPrescribed">Medicines Prescribed</label>
+                <br><br>
+                <select name="MedicinesPrescribed" id="MedicinesPrescribed " aria-placeholder="medicine list">
+                <option  value="med1">med 1</option>
+                
+                <option value="med1">med 2</option>
+                <option value="med1">med 3</option>
+                 </select>
+            </div>
+            
+
+        </div>
+        <div class="medicineDetails">
+            <table id="medicineList" >
+                    <tr>
+                        <th>Drug name</th>
+                        <th> UnitPerDay</th>
+                        <th>Quantity</th>
+                        <th>UnitPrice</th>
+                        <th>cost</th>
+                    </tr>
+                    <tr>
+                        <td>paracetamol</td>
+                        <td>3</td>
+                        <td>15</td>
+                        <td>2</td>
+                        <td>30</td>
+                    </tr>
+                   <tr>
+                        <td>paracetamol</td>
+                        <td>3</td>
+                        <td>15</td>
+                        <td>2</td>
+                        <td>30</td>
+                   </tr>
+                   <tr>
+                        <td>paracetamol</td>
+                        <td>3</td>
+                        <td>15</td>
+                        <td>2</td>
+                        <td>30</td>
+                </tr>
+               
+
+            </table>        
+            <button id="add" type="button">ADD</button>
+            <form>
+                <input type="text" id="total" placeholder="TOTAL">
+            </form>
+        </div>
+        
+        
+        <script src="../../js/cms.js"></script>
+
+    </body>
+</html><br>
+            
