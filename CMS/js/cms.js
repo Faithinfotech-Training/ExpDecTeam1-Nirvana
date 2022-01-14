@@ -3,13 +3,16 @@ function validName(tagN) {
 
   let ph = /^[A-za-z]*$/g;
   let p = document.getElementById(tagN).value;
-  let result = p.match(ph);
+  console.log(p);
+  let result = ph.test(p);
+  console.log(result);
   document.getElementById(tagN).classList.remove('invalid');
-  if(result != null){
+  if(!result){
     document.getElementById(tagN).classList.add('invalid');
   }
 
 }
+
 
 function validPhn(tagN) {
 
